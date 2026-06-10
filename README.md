@@ -1,6 +1,6 @@
 # Helm Golang Test
 
-A short take-home exercise: build a small HTTP service that calculates profit and loss for a portfolio of shares from a CSV file. It should take around an hour — we're not looking for a production system, just clean, idiomatic Go.
+A short exercise: build a small HTTP service that calculates profit and loss for a portfolio of shares from a CSV file. It should take around an hour — we're not looking for a production system, just clean, idiomatic Go.
 
 ## Prerequisites
 
@@ -79,5 +79,3 @@ Only if you have time left — none of these are required:
 - Correct use of channels and goroutines — no leaks, no races (`go run -race .` is your friend).
 - Sensible error handling and HTTP status codes.
 - Stdlib only is perfectly fine; don't reach for a framework.
-
-When you're done, zip the project up (or push it to a repo) and send it back to us. Feel free to include a short note on any decisions or trade-offs you made.
